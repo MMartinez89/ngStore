@@ -1,0 +1,15 @@
+
+<div class="container mx-auto">
+  <div>
+    <h1 class = "text-lg font-bold">About</h1>
+    <p class = "text-xs">Lorem ipsum dolor sit,<span highlight> amet consectetur adipisicing elit.</span> Vero quo obcaecati officiis esse eligendi autem ullam illo dolore doloribus unde
+  mollitia voluptatum consequatur quas impedit sapiente non, sed cupiditate rerum.</p>
+  <p class = "xs">Numero de clientes</p>
+  @if (duration() > 0) {
+    <app-counter [duration]="duration()" [message]="message()"/>
+  }
+  <div>
+    <app-wave-audio audioUrl="assets/blink-182 - Dammit.mp3"/>
+  </div>
+</div>
+</div>

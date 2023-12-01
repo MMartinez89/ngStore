@@ -1,0 +1,10 @@
+<div>
+  <div #wave> </div>
+  <button (click)="playPauser()">
+    @if (isPaying()) {
+      <span>Pause</span>
+    } @else {
+      Play
+    }
+  </button>
+</div>
